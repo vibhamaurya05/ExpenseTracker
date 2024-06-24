@@ -44,6 +44,7 @@ function App() {
           <label className="flex text-xl font-medium">Item Amount:</label>
           <input
             type="text"
+            value={itemAmount}
             onChange={(e) => setItemAmount(e.target.value)}
             className="w-full p-2 rounded"
           ></input>
